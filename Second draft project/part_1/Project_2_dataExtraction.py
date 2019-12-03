@@ -58,17 +58,6 @@ def returnData():
 
     return xLabel2,yLabel2,xLabel4,yLabel4,xLabel6,yLabel6
 
-xLabel2,yLabel2,xLabel4,yLabel4,xLabel6,yLabel6=returnData()
-
-
-print(xLabel2.shape)
-print(xLabel2[0].shape)
-print(xLabel2[0].reshape(28,28).shape)
-print('*'*50)
-#print(yLabel2)
-from matplotlib import pyplot as plt
-plt.imshow(xLabel2[0].reshape(28,28), interpolation='nearest')
-plt.show()
 
 
 """
